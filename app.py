@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
+import gdown
+import os
 
 #fetch poster
 def fetch_poster(movie_id):
@@ -30,6 +32,13 @@ def recommend(movie):
 #movies.pkl file contains a dataframe with three columns movie_id , title and tags .It has been dumped through pickle
 movies = pickle.load(open("movies.pkl","rb")) #movies_list is now new_df
 movies_list = movies["title"].values #values of title column in movies_list dataframe are stored in movies_lists
+
+# Only download if file is not already there
+if not os.path.exists("similarity.pkl"):
+    url = "https://drive.google.com/uc?id=1HlHIZ6ao64xgsX71q2rWYHQxQ0ipR50Q"
+    gdown.download(url, "similarity.pkl", quiet=False)
+
+# Now load it
 similarity = pickle.load(open("similarity.pkl", "rb"))
 
 #ist - setting title
