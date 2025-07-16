@@ -10,11 +10,9 @@ A **Content-Based Movie Recommender System** built using **Python** and deployed
 - [📖 Project Overview](#-project-overview)
 - [🛠️ Tech Stack](#-tech-stack)
 - [🔁 Workflow](#-workflow)
-- [💻 How to Run Locally](#-how-to-run-locally)
-- [🖼️ Screenshots](#-screenshots)
-- [🌱 Future Improvements](#-future-improvements)
-- [🙏 Credits](#-credits)
 - [📬 Contact](#-contact)
+- [💻 How to Run Locally](#-how-to-run-locally)
+
 
 ---
 
@@ -76,11 +74,11 @@ This recommender system uses **cosine similarity** to find and suggest movies th
 
 ---
 
-## 🖼️ Screenshot
+### 📬 Contact
+If you have questions, feedback, or collaboration ideas:
 
-Here’s a preview of the Movie Recommender System in action:
-
-![Movie Recommender Streamlit App](screenshots/movie-app.png)
+📧 aroshaamin0@gmail.com
+🔗 https://www.linkedin.com/in/arosha-amin
 
 
 ## 💻 How to Run Locally
@@ -89,9 +87,5 @@ Here’s a preview of the Movie Recommender System in action:
 ```bash
 git clone https://github.com/yourusername/movie-recommender-system.git
 cd movie-recommender-system
+```
 
-📬 Contact
-If you have questions, feedback, or collaboration ideas:
-
-📧 aroshaamin0@gmail.com
-🔗 https://www.linkedin.com/in/arosha-amin
